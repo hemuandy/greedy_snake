@@ -170,7 +170,7 @@ void print()
     cout<<"Score: "<<score<<endl;
 }
 
-int main()
+void setup()
 {
     ios::sync_with_stdio(false);
     cin.tie(0);
@@ -192,6 +192,17 @@ int main()
     heady=y/2;
     //tailx=x/2;
     //taily=y/2;
+    cout<<"--------------------------------------------------"<<endl;
+    cout<<"|By:Andy                                         |"<<endl;
+    cout<<"|Email:3565860971@qq.com                         |"<<endl;
+    cout<<"|Github:https://github.com/hemuandy/greedy_snake |"<<endl;
+    cout<<"--------------------------------------------------"<<endl;
+    system("pause");
+}
+
+int main()
+{
+    setup();
     while(1)
     {
         print();
